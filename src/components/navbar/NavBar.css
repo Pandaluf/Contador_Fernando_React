@@ -19,8 +19,8 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,.1);
-    backdrop-filter: blur(50px);
+
+
     z-index: -1;
 }
 
@@ -31,6 +31,10 @@
     width: 100%;
     background: white;
     animation: slidedown .4s forwards;
+
+    a{
+        color: black;
+    }
 }
 
 @keyframes slidedown{
@@ -81,6 +85,7 @@
 @media (max-width: 768px){
     .headerNav__icon{
         display: inline-flex;
+        color: black;
     }
 
     #check:checked ~ .headerNav__icon #menu-icon{

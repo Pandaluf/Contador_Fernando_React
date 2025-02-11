@@ -6,7 +6,7 @@ function NavBar() {
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 50) {
+            if (window.scrollY > 50 ) {
                 menuRef.current?.classList.add('slidedown');
             } else {
                 menuRef.current?.classList.remove('slidedown');
