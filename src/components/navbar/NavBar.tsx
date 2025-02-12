@@ -28,9 +28,9 @@ function NavBar() {
             </label>
 
             <nav className="headerNav__nav">
-                <a href="#" className="headerNav__nav__link" style={{ "--i": 0 } as React.CSSProperties}>Home</a>
-                <a href="#" className="headerNav__nav__link" style={{ "--i": 1 } as React.CSSProperties}>About</a>
-                <a href="#" className="headerNav__nav__link" style={{ "--i": 2 } as React.CSSProperties}>Contact</a>
+                <a href="#" className="headerNav__nav__link" style={{ "--i": 0 } as React.CSSProperties}>Inicio</a>
+                <a href="#" className="headerNav__nav__link" style={{ "--i": 1 } as React.CSSProperties}>Servicios</a>
+                <a href="#" className="headerNav__nav__link" style={{ "--i": 2 } as React.CSSProperties}>Nosotros</a>
             </nav>
         </section>
     );
