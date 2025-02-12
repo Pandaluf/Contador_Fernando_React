@@ -23,3 +23,15 @@
         color: #f1f1f1;
     }
 }
+
+@media (max-width: 480px) {
+    .formCustom__group__label{
+        font-size: 1.5rem ;
+    }
+
+    .formCustom__button{
+        button{
+            font-size: 20px !important;
+        }
+    }
+}
