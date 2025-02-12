@@ -1,3 +1,25 @@
 .formCustom{
-    width: 100%;
+    width: 100% !important;
+}
+
+.formCustom__group{
+    width: 100% !important;
+    margin-bottom: 1rem;
+}
+
+.formCustom__group__label{
+    color: white !important;
+}
+
+.formCustom__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+    button{
+        font-size: 25px !important;
+        font-weight: bold;
+        color: #f1f1f1;
+    }
 }

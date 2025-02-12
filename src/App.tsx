@@ -15,7 +15,10 @@ function App() {
                     <h3>de experiencia solucionando y gestionando procesos contables</h3>
                 </div>
                 <div className="header__content__message">
-                    <FormValidation />
+                    <h1 className="text-center">Dejanos un mensaje</h1>
+                    <div className="header__content__message__form">
+                        <FormValidation />
+                    </div>
                 </div>
             </div>
         </section>
