@@ -1,4 +1,3 @@
-import book from '/img/complaint_book.jpg'
 import './Footer.css'
 
 function Footer(){

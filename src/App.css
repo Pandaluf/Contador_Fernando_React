@@ -104,7 +104,7 @@
 
 }
 
-.services__title{
+.services__title {
     text-align: center;
     padding-top: 20px;
     margin-bottom: 20px;
@@ -118,9 +118,11 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
-.services__image{
+.services__image {
     width: 30%;
     height: auto;
     border-radius: 10px;
@@ -129,9 +131,11 @@
 
 .services__container__list {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
-    ul{
-        li{
+    justify-content: center;
+    ul {
+        li {
             color: black;
             font-weight: 400;
             font-size: 1.5rem;
@@ -262,6 +266,20 @@
     .problems button {
         font-size: 1.8rem;
     }
+
+    .services__title {
+        font-size: 2.5rem;
+    }
+    .services__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services__image {
+        width: 40%;
+    }
+    .services__container__list ul li {
+        font-size: 1.3rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -312,6 +330,20 @@
         font-size: 1.6rem;
         padding: 0.4rem 0.8rem;
     }
+
+    .services__title {
+        font-size: 2rem;
+    }
+    .services__image {
+        width: 50%;
+    }
+    .services__container__list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services__container__list ul li {
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -359,5 +391,15 @@
     .problems button {
         font-size: 1.4rem;
         padding: 0.3rem 0.6rem;
+    }
+
+    .services__title {
+        font-size: 1.8rem;
+    }
+    .services__image {
+        width: 70%;
+    }
+    .services__container__list ul li {
+        font-size: 1rem;
     }
 }
