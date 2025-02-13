@@ -141,3 +141,9 @@
         transition-delay: calc(.15s * var(--i));
     }
 }
+
+@media (max-width: 480px){
+    .headerNav__logo{
+        font-size: 2rem;
+    }
+}
