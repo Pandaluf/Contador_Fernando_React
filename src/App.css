@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem; /* Ajusta este valor según la altura del navbar */
+}
+
 .header {
     background-image: url('/img/accounting_background2.jpg');
     background-repeat: no-repeat;
@@ -217,7 +222,7 @@
     color: #fff;
     font-weight: 700;
     font-size: 40px; /* Aumentado */
-    bottom: 70px;
+    bottom: 50px;
     right: 40px;
     border: 0;
     z-index: 9999;
@@ -416,8 +421,9 @@
     }
 
     .our__container {
-        flex-direction: column;
+
         text-align: center;
+        flex-direction: column-reverse;
     }
     .our__container__image {
         width: 50%;

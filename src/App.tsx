@@ -36,11 +36,13 @@ function App() {
                 todas tus obligaciones. ¡Haz crecer tu negocio con seguridad
                 y tranquilidad! Contáctanos hoy y obtén la solución que necesitas.</p>
             <div>
-                <button>Solicita información</button>
+                <button onClick={() => window.open("http://wa.me/+51970390105", "_blank", "noopener,noreferrer")}>
+                    Solicita información
+                </button>
             </div>
         </section>
 
-        <section className="services">
+        <section id="service" className="services">
             <h1 className="services__title">Servicios</h1>
             <div className="services__container">
                 <div className="services__container__list">
@@ -65,7 +67,7 @@ function App() {
             </div>
         </section>
 
-        <section className="our">
+        <section id="we" className="our">
             <h1 className="services__title">Nosotros</h1>
             <div className="our__container">
                 <img src={fernando} alt="logo" className="our__container__image" />
@@ -92,7 +94,7 @@ function App() {
                     economista, adivino, archivista, sistemas y MÁS</p>
             </div>
             <div>
-                <button>Escribenos</button>
+                <button onClick={() => window.open("http://wa.me/+51970390105", "_blank", "noopener,noreferrer")}>Escríbenos</button>
             </div>
         </section>
 
