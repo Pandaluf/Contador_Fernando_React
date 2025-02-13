@@ -92,10 +92,15 @@ function App() {
                     economista, adivino, archivista, sistemas y MÁS</p>
             </div>
             <div>
-                <button>Contacto</button>
+                <button>Escribenos</button>
             </div>
         </section>
 
+        <div id="whatsapp">
+            <a href="http://wa.me/+51970390105" target="_blank" id="toggle1" className="wtsapp">
+                <i className="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
         <Footer />
     </>
   )

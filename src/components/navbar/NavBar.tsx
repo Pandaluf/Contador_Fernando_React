@@ -19,7 +19,7 @@ function NavBar() {
 
     return (
         <section ref={menuRef} className="headerNav">
-            <a href="#" className="headerNav__logo">Fernando</a>
+            <a href="#" className="headerNav__logo">Contador Público</a>
 
             <input type="checkbox" id="check" />
             <label htmlFor="check" className="headerNav__icon">

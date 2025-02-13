@@ -26,6 +26,11 @@
     font-size: 1.6rem;
 }
 
+.footerCustom__contact__whatsapp{
+    text-decoration: none;
+    color: black;
+}
+
 @media (max-width: 768px) {
     .footerCustom {
         flex-direction: column;
