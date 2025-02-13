@@ -433,6 +433,12 @@
     .phrase__container {
         width: 80%;
     }
+
+
+    #whatsapp .wtsapp {
+        bottom: 30px; /* Más abajo */
+        right: 20px;  /* Más a la derecha */
+    }
 }
 
 @media (max-width: 480px) {
